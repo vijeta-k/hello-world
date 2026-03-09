@@ -2,5 +2,8 @@
 
 int main() {
     printf("Hello, World!");
+    printf("Enter a welcome message\n");
+    char str[10];
+    scanf("%s",str);
     return 0;
 }
